@@ -4,7 +4,7 @@ public class ReverseWords {
         public static void main(String[] args) {
                 String s = sc.nextLine();
                 s = s.trim();
-                String[] words = s.split(" ");
+                String[] words = s.split("\\s+");
                 for(int i=words.length-1; i>=0; i--){
                         System.out.print(words[i]);
                         if(i != 0){
